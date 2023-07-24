@@ -109,7 +109,12 @@ n = 1
 # 12) Convertir en una lista la variable "cadena" del punto 10 y luego recorrerla con un iterador 
 
 # In[41]:
+cadena = 'Hola Mundo. Esto es una practica del lenguaje de programación Python'
 
+lista=list(cadena)
+marcador = iter(lista)
+for a in (lista):
+    print(next(marcador))
 
 
 
